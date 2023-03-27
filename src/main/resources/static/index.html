@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>Form Tutorial</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="./css/style.css">
+  <body>
+    <div class="form-container">
+      <form action="/contact" method="post" id="tutorial-form">
+        <div class="input-container">
+          <input type="text" id="first" name="first" placeholder="First Name" />
+        </div>
+
+        <div class="input-container">
+          <input type="text" id="last" name="last" placeholder="Last Name" />
+        </div>
+
+        <div class="input-container">
+            <textarea name="comment" form="tutorial-form" placeholder="Comment..."></textarea>
+        </div>
+
+        <div class="input-container">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
